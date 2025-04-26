@@ -10,7 +10,6 @@ import java.util.List;
 
 public class BasicSwapPricer {
 
-    //TODO - we are assuming the same float rate but in reality this should take a curve
     public static double priceSwap(InterestRateSwap swap, Curve curve) {
         double floatPv = 0.0;
         double fixedPv = 0.0;
